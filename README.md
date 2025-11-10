@@ -1,70 +1,49 @@
-# WestBengalSuicideAnalysis
-An R-based data analysis exploring suicide patterns and demographics in West Bengal.
-🕯️ More Than a Number: The Silent Crisis in West Bengal
+## WestBengalSuicideAnalysis
+## An R-based analysis of suicide patterns and demographics in West Bengal (2001-2014).
 
-Authors
+📖 Project Overview
+This project provides a statistical analysis of suicide data in West Bengal from 2001 to 2014, based on data from the National Crime Records Bureau (NCRB). The primary objective is to identify and visualize key trends, demographic vulnerabilities, and potential socio-economic correlates of suicide in the state.
 
-Ayush Jain,Abhinav Munshi, & Krishan Pancholin
+The analysis is contained in the Suicide_project.R script, which performs data cleaning, statistical analysis, and visualization. Key findings and discussion are summarized in the accompanying report, WB Story Suicide.pdf.
 
-⸻
+📊 Key Findings
+National Context: Between 2001 and 2014, West Bengal ranked fourth-highest in total suicides among all Indian states.
 
-📖 Overview
+Gender Disparity: Males account for approximately twice as many suicides as females. This finding suggests that social expectations and economic responsibilities are significant contributing factors.
 
-This project explores the trends, patterns, and underlying factors behind suicide rates in West Bengal, India, from 2001 to 2014. Using official data from the National Crime Records Bureau (NCRB), the study aims to go beyond raw statistics to uncover the social, economic, and demographic factors that contribute to this public health crisis.
+Vulnerable Occupations: Self-employed individuals and housewives recorded the highest suicide rates, indicating immense societal and familial pressures on these groups.
 
-The R script (Suicide_project.R) performs data cleaning, visualization, and statistical analysis to bring insights to life through graphs and figures that support the findings summarized in the accompanying report, WB Story Suicide.pdf.
+Temporal Trends: Yearly suicide numbers show significant fluctuation, with prominent spikes observed in the 2010–2011 period.
 
-⸻
+🧩 Technologies & Methods
+Language: R
 
-🧠 Research Motivation
+Core Libraries: tidyverse (for ggplot2, dplyr, readr), summarytools, and stats.
 
-In 2023, an average of 35 people in West Bengal took their own lives each day — a devastating statistic that masks thousands of untold stories.
+Analysis: The script generates summary statistics (mean, median, standard deviation) and visualizations (line graphs, bar charts) to explore trends by year, gender, and occupation.
 
-Our goal was to humanize the data by identifying: • Who is most vulnerable • How social and economic pressures contribute • What long-term patterns suggest about mental health challenges in the state
+⚙️ How to Reproduce
+Clone the repository:
 
-⸻
-
-📊 Data & Analysis
-
-The project analyzes suicide data between 2001 and 2014, focusing on:
-
-Overall Trends • Yearly suicide numbers show fluctuating patterns, with several peaks and drops across two decades. • Notable spikes observed around 2010–2011.
-
-Gender Comparison • On average, male suicides are twice as high as female suicides. • The data distribution is right-skewed, with high variability (large standard deviations). • Social expectations and economic responsibilities appear as strong contributing factors for male vulnerability.
-
-Occupation-Based Analysis • Self-employed individuals and housewives record the highest suicide rates. • These groups often face immense societal and familial pressure.
-
-State Comparisons
-
-Rank State Total Suicides (2001–2014) 1 Maharashtra 563,462 2 Tamil Nadu 486,324 3 Andhra Pradesh 469,279 4 West Bengal 456,123 5 Karnataka 434,604
-
-West Bengal ranks fourth nationally — highlighting that this is not an isolated issue but part of a larger national crisis.
-
-⸻
-
-🧩 Technologies Used • Language: R • Libraries: tidyverse, ggplot2, dplyr, readr, summarytools, stats • Visualization: Line graphs, bar charts, and summary statistics
-
-⸻
-
-⚙️ How to Run the Project 1. Clone the repository:
+Bash
 
 git clone https://github.com//Suicide_Project_WB.git
+Open Suicide_project.R in RStudio or your preferred R environment.
 
-2.	Open the Suicide_project.R file in RStudio or any R environment.
-3.	Ensure all dependencies are installed:
+Install the required dependencies:
 
-install.packages(c("tidyverse", "ggplot2", "dplyr", "summarytools"))
-4.	Run the script to generate graphs and summary tables.
+R
 
-5.	Run the script to generate graphs and summary tables.
-⸻
+install.packages(c("tidyverse", "summarytools"))
+Run the script to generate the analysis and visualizations.
 
-🧾 Output
+🩺 Conclusion
+The analysis indicates that economic distress, rigid gender norms, and occupational pressures are major correlates of suicide in West Bengal. The findings highlight the barrier that mental health stigma presents to intervention, particularly in rural India, and underscore the need for sustained policy action to support awareness initiatives.
 
-The R script generates: • Visualizations showing suicide trends by year, gender, and occupation • Statistical summaries (mean, median, standard deviation, variance) • Insights that align with the report’s visual figures (Figures 1–4 in the PDF)
+✍️ Authors
 
-⸻
+   Ayush Jain
 
-🩺 Key Insights • Economic distress, gender norms, and occupational pressures are major correlates. • The mental health stigma in rural India remains a barrier to intervention. • Awareness initiatives such as school-based counseling and 24/7 helplines are positive steps forward — but policy action is needed to sustain change.
+   Abhinav Munshi
 
-⸻
+   Krishan Pancholin
