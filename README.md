@@ -52,9 +52,11 @@ git clone https://github.com//Suicide_Project_WB.git
 
 2.	Open the Suicide_project.R file in RStudio or any R environment.
 3.	Ensure all dependencies are installed:
-install.packages(c("tidyverse", "ggplot2", "dplyr", "summarytools"))
 
+install.packages(c("tidyverse", "ggplot2", "dplyr", "summarytools"))
 4.	Run the script to generate graphs and summary tables.
+
+5.	Run the script to generate graphs and summary tables.
 ⸻
 
 🧾 Output
