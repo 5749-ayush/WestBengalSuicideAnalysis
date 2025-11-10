@@ -1,7 +1,7 @@
-## WestBengalSuicideAnalysis
+# WestBengalSuicideAnalysis
 ## An R-based analysis of suicide patterns and demographics in West Bengal (2001-2014).
 
-📖 Project Overview
+##📖 Project Overview
 This project provides a statistical analysis of suicide data in West Bengal from 2001 to 2014, based on data from the National Crime Records Bureau (NCRB). The primary objective is to identify and visualize key trends, demographic vulnerabilities, and potential socio-economic correlates of suicide in the state.
 
 The analysis is contained in the Suicide_project.R script, which performs data cleaning, statistical analysis, and visualization. Key findings and discussion are summarized in the accompanying report, WB Story Suicide.pdf.
