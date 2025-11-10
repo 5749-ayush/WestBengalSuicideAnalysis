@@ -1,4 +1,4 @@
-# WestBengalSuicideAnalysis
+# WestBengal Suicide Analysis
 ## An R-based analysis of suicide patterns and demographics in West Bengal (2001-2014).
 
 ## 📖 Project Overview
